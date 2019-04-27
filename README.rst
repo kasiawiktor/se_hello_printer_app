@@ -5,8 +5,10 @@ Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach 
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
-
-  ::
+.. image:: https://travis-ci.com/kasiawiktor/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.com/kasiawiktor/se_hello_printer_app
+ 
+ ::
 
     # centos, add to ~/.bashrc
     $ source /usr/bin/virtualenvwrapper.sh
@@ -40,8 +42,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
-.. image:: https://travis-ci.com/kasiawiktor/se_hello_printer_app.svg?branch=master
-    :target: https://travis-ci.com/kasiawiktor/se_hello_printer_app
+
   ::
 
     $ source /usr/local/bin/virtualenvwrapper.sh # nie trzeba, jeśli już w .bashrc
