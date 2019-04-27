@@ -1,9 +1,3 @@
-(brak tematu)
-Beata Bancerz
-	
-13:42 (0 minut temu)
-	
-do ja
 Simple Flask App
 ================
 
