@@ -18,6 +18,6 @@ class FlaskrTestCase(unittest.TestCase):
         self.assertEquals(expected_result, rv.data.decode("utf-8"))
 
     def test_name(self):
-        rv = self.app.get('/?name=kasia&output=json')
-        expected_result = '{"imie": "Kasia", "msg": "Hello World!"}'
+        rv = self.app.get('/?name=ania&output=json')
+        expected_result = '{"imie": "Ania", "msg": "Hello World!"}'
         self.assertEquals(expected_result, rv.data.decode("utf-8"))
