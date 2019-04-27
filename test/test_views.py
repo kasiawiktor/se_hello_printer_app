@@ -10,8 +10,14 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_outputs(self):
         rv = self.app.get('/outputs')
-        ','.join(SUPPORTED) in rv.data
+        ','.join(SUPPORTED) in rv.data.decode("utf-8")
 
     def test_msg_with_output(self):
         rv = self.app.get('/?output=json')
-        self.assertEquals('{ "imie":"Kasia", "mgs":Hello World!"}', rv.data)
+        expected_result = '{"imie": "Kasia", "msg": "Hello World!"}'
+        self.assertEquals(expected_result, rv.data.decode("utf-8"))
+
+    def test_name(self):
+        rv = self.app.get('/?name=kasia&output=json')
+        expected_result = '{"imie": "Kasia", "msg": "Hello World!"}'
+        self.assertEquals(expected_result, rv.data.decode("utf-8"))
