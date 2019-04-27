@@ -111,5 +111,5 @@ Materiały
 
 On featureBranch
 
-.. image:: https://travis-ci.org/Beata86/se_hello_printer_app.svg?branch=master
-    :target: https://travis-ci.org/Beata86/se_hello_printer_app
+.. image:: https://travis-ci.com/kasiawiktor/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.com/kasiawiktor/se_hello_printer_app
