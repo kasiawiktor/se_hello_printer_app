@@ -9,3 +9,7 @@ script:
 - make test
 - make lint
 - make docker_push
+deploy:
+    provider: heroku
+    app: frozen-headland-71535
+    api_key: ${HEROKU_API_KEY}
