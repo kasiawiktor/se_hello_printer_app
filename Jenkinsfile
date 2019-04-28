@@ -5,14 +5,14 @@ pipeline {
            steps {
 	                 sh 'make deps'
 		             }
-                 stage('Linter') {
-                    steps {
-                            sh 'make Linter'
+        stage('Linter') {
+            steps {
+                   sh 'make Linter'
                           }
     }
-	  stage('Test') {
-	         steps {
-		              sh 'make test'
+	      stage('Test') {
+	          steps {
+		               sh 'make test'
 		          }
     }
   }
