@@ -1,3 +1,9 @@
+.. image:: https://travis-ci.com/kasiawiktor/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.com/kasiawiktor/se_hello_printer_app
+
+.. image:: https://app.statuscake.com/button/index.php?Track=10qQ8ASrJf&Days=1&Design=5
+    :target: https://app.statuscake.com
+
 Simple Flask App
 ================
 
@@ -109,7 +115,3 @@ Materiały
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 
-On featureBranch
-
-.. image:: https://travis-ci.com/kasiawiktor/se_hello_printer_app.svg?branch=master
-    :target: https://travis-ci.com/kasiawiktor/se_hello_printer_app
