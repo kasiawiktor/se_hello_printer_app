@@ -9,6 +9,7 @@ script:
 - make test
 - make lint
 - make docker_push
+- make test_xunit
 deploy:
   provider: heroku
   app: frozen-headland-71535
